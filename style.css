@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background-color:  #222831;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+.navication ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    text-decoration: none;
+}
+.navication a {
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+.navication a:hover {
+    color: green;
+    text-decoration: none;
+}
+hr{
+    opacity: 10%;
+}
+h3{
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+}
+b{
+  color: white;
+  justify-content: center;
+  display: flex;
+  font-size: larger;
+  font-weight: bold;
+}
+.project1{
+  font-size: 25px;
+  color: #fff;
+  border-radius: 15px;
+  justify-content: center;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+.project2{
+  font-size: 25px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.GamePass {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: 0.3s;
+}
+.left-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.right-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-decoration: none;
+  justify-content: center;
+  padding: 20px;
+}
+.image-container {
+  width: 250px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 25px;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: #000; /* fallback in case image fails */
+  font-family: sans-serif;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.description {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #111; /* darker background */
+  text-decoration: none;
+  color: white;
+  padding: 10px 8px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.description .title {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+.description .price {
+  font-size: 16px;
+  color: #2ecc71; /* green color */
+  font-weight: bold;
+  text-decoration: none;
+}
+.description .price:hover{
+  font-size: 20px;
+  color: white;
+}
